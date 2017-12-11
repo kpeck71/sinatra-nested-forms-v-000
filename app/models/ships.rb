@@ -1,5 +1,5 @@
 class Ships < ActiveRecord::Base
-  has_many :ships
+  belongs_to :pirate
 
   def self.clear
   end
