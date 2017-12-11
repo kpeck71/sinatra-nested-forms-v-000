@@ -2,7 +2,7 @@ class Pirate
 
   PIRATES = []
 
-  attr_accessor :name, :type, :booty
+  attr_accessor :name, :height, :booty
 
   def initilialize(name,height,weight)
     @name = name
