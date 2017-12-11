@@ -1,5 +1,7 @@
 class Ships
 
+  SHIPS = []
+
   attr_accessor :name, :type, :booty
 
   def initilialize (:name,)
