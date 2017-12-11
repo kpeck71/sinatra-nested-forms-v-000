@@ -1,6 +1,16 @@
-class Pirate < ActiveRecord::Base
-  has_many :ships
+class Pirate
+
+  SHIPS = []
+
+  attr_accessor :name, :type, :booty
+
+  def initilialize(name,type,booty)
+    @name = name
+    @type = type
+    @booty = booty
+  end
 
   def self.clear
+    SHIPS.clear
   end
 end
