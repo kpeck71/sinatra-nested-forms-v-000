@@ -6,7 +6,7 @@ class Pirate
 
   def initilialize(name,height,weight)
     @name = name
-    @type = type
+    @height = height
     @weight = weight
   end
 
