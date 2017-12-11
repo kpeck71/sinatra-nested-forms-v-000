@@ -4,7 +4,7 @@ class Pirate
 
   attr_accessor :name, :type, :booty
 
-  def initilialize(name,type,booty)
+  def initilialize(name,height,booty)
     @name = name
     @type = type
     @booty = booty
