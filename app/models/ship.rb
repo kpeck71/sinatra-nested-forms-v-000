@@ -4,7 +4,7 @@ class Ship
 
   attr_accessor :name, :type, :booty
 
-  def initilialize(name,type,booty)
+  def initilialize(arg)
     @name = name
     @type = type
     @booty = booty
