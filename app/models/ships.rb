@@ -1,4 +1,4 @@
-class Ships
+class Ship
 
   SHIPS = []
 
