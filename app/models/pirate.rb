@@ -10,6 +10,10 @@ class Pirate
     @weight = weight
   end
 
+  def self.all
+    PIRATES
+  end
+
   def self.clear
     PIRATES.clear
   end
