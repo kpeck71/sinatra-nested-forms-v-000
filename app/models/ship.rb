@@ -10,6 +10,10 @@ class Ship
     @booty = booty
   end
 
+  def self.all
+    SHIPS
+  end
+
   def self.clear
     SHIPS.clear
   end
