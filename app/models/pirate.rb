@@ -11,6 +11,6 @@ class Pirate
   end
 
   def self.clear
-    SHIPS.clear
+    PIRATES.clear
   end
 end
