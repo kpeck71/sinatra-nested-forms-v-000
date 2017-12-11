@@ -5,9 +5,9 @@ class Pirate
   attr_accessor :name, :height, :weight
 
   def initilialize(params)
-    @name = name
-    @height = height
-    @weight = weight
+    @name = params[:name]
+    @height = params[:height]
+    @weight = params[:weight]
     PIRATES << self
   end
 
