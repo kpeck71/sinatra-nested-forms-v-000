@@ -4,10 +4,10 @@ class Pirate
 
   attr_accessor :name, :type, :booty
 
-  def initilialize(name,height,booty)
+  def initilialize(name,height,weight)
     @name = name
     @type = type
-    @booty = booty
+    @weight = weight
   end
 
   def self.clear
