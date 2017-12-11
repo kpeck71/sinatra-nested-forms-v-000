@@ -4,7 +4,7 @@
 
 <p><% @ships.each_with_index do |ship, i| %></p>
 <p>Ship Number. <%= i+1 %></p>
-<p> <%= ship.name %></p>
-<p> <%= ship.type %></p>
-<p> <%= ship.booty %></p>
+<p>Name: <%= ship.name %></p>
+<p>Type: <%= ship.type %></p>
+<p>Booty: <%= ship.booty %></p>
 <%end%>
