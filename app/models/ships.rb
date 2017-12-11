@@ -6,5 +6,6 @@ class Ships
 
 
   def self.clear
+    @@ships.clear
   end
 end
