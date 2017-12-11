@@ -1,7 +1,8 @@
-class Ships < ActiveRecord::Base
-  belongs_to :pirate
+class Ships
 
   attr_accessor :name, :type, :booty
+
+  def initilialize (:name,)
 
 
   def self.clear
