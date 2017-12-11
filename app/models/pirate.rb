@@ -1,6 +1,6 @@
 class Pirate
 
-  SHIPS = []
+  PIRATE = []
 
   attr_accessor :name, :type, :booty
 
